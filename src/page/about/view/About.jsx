@@ -4,8 +4,8 @@ import { useEffect } from "react";
 import { useRef } from "react";
 import "../css/about.css"
 const AboutPage = () => {
+    const port = import.meta.env.VITE_PORT
     const textRef = useRef(null);
-
     useEffect(() => {
         const textElement = textRef.current;
         if (textElement) {
@@ -17,7 +17,7 @@ const AboutPage = () => {
         <Content>
             <Row gutter={24} style={{ flex: 1, justifyContent: "center" }}>
                 <Col xs={24} sm={24} md={4} style={{ display: 'flex', justifyContent: 'center' }}>
-                    <img src="../../../../public/image/leduc.jpg" style={{ maxWidth: '100%', height: 'auto', borderRadius: "50%" }} />
+                    <img src={`${port}image/leduc.jpg`} style={{ maxWidth: '100%', height: 'auto', borderRadius: "50%" }} />
                 </Col>
                 <Col xs={24} sm={24} md={20} style={{ display: 'flex', flexDirection: "column", justifyContent: 'center', color: "white" }}>
                     <div >

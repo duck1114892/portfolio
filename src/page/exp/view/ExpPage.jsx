@@ -2,11 +2,12 @@ import { Card, Timeline } from "antd"
 import { Content } from "antd/es/layout/layout";
 import '../css/exp.css'
 const ExpPage = () => {
+    const port = import.meta.env.VITE_PORT
     const timeLineItems = [
         {
             children: <Card className="custom-card">
                 <p>1/2024 - Current</p>
-                <h2><img className="custom-icon" style={{ maxWidth: "20px", maxHeight: "33px", }} src="../../../../public/image/ltv.webp" alt="" />LTV Software Company Limited</h2>
+                <h2><img className="custom-icon" style={{ maxWidth: "20px", maxHeight: "33px", }} src={`${port}image/ltv.webp`} alt="" />LTV Software Company Limited</h2>
                 <h3>Junior Front-End Developer</h3>
                 <p>
                     <ul>
@@ -41,7 +42,7 @@ const ExpPage = () => {
         {
             children: <Card className="custom-card">
                 <p>9/2023 - 11/2023</p>
-                <h2><img className="custom-icon" style={{ maxWidth: "20px", maxHeight: "33px", }} src="../../../../public/image/gpt.webp" alt="" />GPT Group</h2>
+                <h2><img className="custom-icon" style={{ maxWidth: "20px", maxHeight: "33px", }} src={`${port}image/gpt.webp`} alt="" />GPT Group</h2>
                 <h3>Intern Front-end Developer</h3>
                 <p>
                     <ul>
