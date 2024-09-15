@@ -55,7 +55,7 @@ const MainPage = () => {
             <Header className='header'>
                 <Row gutter={24}>
                     <Col span={2} xs={0} sm={0} md={2}>
-                        <h1 className='responsive-text' style={{ color: 'linear-gradient(#e66465, #9198e5)', width: "100%" }}>Protolio</h1>
+                        <h1 className='responsive-text' style={{ color: 'linear-gradient(#e66465, #9198e5)', width: "100%" }}>Portfolio</h1>
                     </Col>
                     <Col span={18} xs={20} sm={20} md={18}>
                         <Menu
