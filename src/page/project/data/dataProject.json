@@ -127,44 +127,20 @@
                 ]
             },
             "links": {
-                "github": "https://github.com/duck1114892/BookStore"
+                "github": "https://github.com/duck1114892/portfolio"
             },
             "img": [
                 {
                     "id": 1,
-                    "url": "image/hotel_1.png"
+                    "url": "image/protolio_1.png"
                 },
                 {
                     "id": 2,
-                    "url": "image/hotel_2.png"
+                    "url": "image/protolio_2.png"
                 },
                 {
                     "id": 3,
-                    "url": "image/hotel_3.png"
-                },
-                {
-                    "id": 4,
-                    "url": "image/hotel_4.png"
-                },
-                {
-                    "id": 5,
-                    "url": "image/hotel_5.png"
-                },
-                {
-                    "id": 6,
-                    "url": "image/hotel_6.png"
-                },
-                {
-                    "id": 7,
-                    "url": "image/hotel_7.png"
-                },
-                {
-                    "id": 8,
-                    "url": "image/hotel_8.png"
-                },
-                {
-                    "id": 9,
-                    "url": "image/hotel_9.png"
+                    "url": "image/protolio.png"
                 }
             ]
         }
