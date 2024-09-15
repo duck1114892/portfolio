@@ -1,0 +1,72 @@
+.animated-text {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.animated-text span {
+    display: inline-block;
+    opacity: 0;
+    animation: appear 2s forwards;
+    /* Apply the appearance animation */
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animated-text span:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.animated-text span:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.animated-paragraph {
+    display: inline-block;
+    white-space: pre-wrap;
+    /* Preserve spaces and line breaks */
+}
+
+.animated-paragraph span {
+    display: inline-block;
+    opacity: 0;
+    animation: appear 2s forwards;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply delays based on the position of the letter */
+.animated-paragraph span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animated-paragraph span:nth-child(2) {
+    animation-delay: 0.05s;
+}
+
+.animated-paragraph span:nth-child(3) {
+    animation-delay: 0.1s;
+}

@@ -1,0 +1,172 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Online Bookstore",
+            "description": "Developed a comprehensive online bookstore website using pre-existing APIs. The website features functionalities such as viewing, filtering, and searching for books, adding items to the shopping cart, making purchases, and managing users, products, and orders. The project also incorporates JWT (JSON Web Token) for secure user authentication.",
+            "role": "Designed and implemented the user interface using React.js, integrating it with backend APIs to enable basic CRUD (Create, Read, Update, Delete) operations. This involved creating a seamless user experience for various functionalities, including book browsing, cart management, and order processing. Developed and connected frontend components with backend services for functionalities like book search, filtering, and cart management. Implemented JWT-based authentication to secure user sessions and provide personalized experiences.",
+            "technologiesUsed": {
+                "frontend": [
+                    "React.js",
+                    "Axios",
+                    "React Router",
+                    "Redux Store",
+                    "Ant Design",
+                    "Redux Persist"
+                ],
+                "authentication": "JWT (JSON Web Token) for user authentication"
+            },
+            "links": {
+                "github": "https://github.com/duck1114892/BookStore"
+            },
+            "img": [
+                {
+                    "id": 1,
+                    "url": "../../../../public/image/book_1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "../../../../public/image/book_2.png"
+                },
+                {
+                    "id": 3,
+                    "url": "../../../../public/image/book_3.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Hotel Booking System",
+            "description": "Developed a comprehensive hotel booking system with both a website and a mobile app, featuring the following functionalities:\n\nWebsite:\n- User Interface: Users can view lists of rooms, hotels, filter and search for rooms, and make bookings.\n- Admin Interface: Admins can view, add, edit, and delete rooms, hotels, bookings, and users.\n\nMobile App:\n- User Interface: Users have access to view lists of rooms, hotels, filter and search for rooms, and make bookings.\n\nAuthentication: Integrated JWT (JSON Web Token) for secure user authentication.",
+            "role": "Designed and implemented the user interface using React.js, integrating it with backend APIs to enable basic CRUD (Create, Read, Update, Delete) operations. This involved creating a seamless user experience for various functionalities, including book browsing, cart management, and order processing. Developed and connected frontend components with backend services for functionalities like book search, filtering, and cart management. Implemented JWT-based authentication to secure user sessions and provide personalized experiences.",
+            "technologiesUsed": {
+                "frontend": {
+                    "website": [
+                        "React.js",
+                        "Axios",
+                        "React Router",
+                        "Redux Store",
+                        "Ant Design",
+                        "Redux Persist",
+                        "others"
+                    ],
+                    "mobile": [
+                        "React Native",
+                        "React Navigation",
+                        "Axios",
+                        "React Native Base",
+                        "others"
+                    ]
+                },
+                "backend": [
+                    "NestJS",
+                    "JSON Web Token",
+                    "TypeScript"
+                ],
+                "database": "MongoDB"
+            },
+            "links": {
+                "github": {
+                    "frontend": {
+                        "website": "https://github.com/duck1114892/Hotel",
+                        "mobileApp": "https://github.com/duck1114892/Hotel_APP"
+                    },
+                    "backend": "https://github.com/duck1114892/HotelBe"
+                }
+            },
+            "img": [
+                {
+                    "id": 1,
+                    "url": "../../../../public/image/hotel_1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "../../../../public/image/hotel_2.png"
+                },
+                {
+                    "id": 3,
+                    "url": "../../../../public/image/hotel_3.png"
+                },
+                {
+                    "id": 4,
+                    "url": "../../../../public/image/hotel_4.png"
+                },
+                {
+                    "id": 5,
+                    "url": "../../../../public/image/hotel_5.png"
+                },
+                {
+                    "id": 6,
+                    "url": "../../../../public/image/hotel_6.png"
+                },
+                {
+                    "id": 7,
+                    "url": "../../../../public/image/hotel_7.png"
+                },
+                {
+                    "id": 8,
+                    "url": "../../../../public/image/hotel_8.png"
+                },
+                {
+                    "id": 9,
+                    "url": "../../../../public/image/hotel_9.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Proportfolio",
+            "description": "This is a personal information introduction website. It provides an overview of the applicant, including goals, experience, projects, and contact information.",
+            "role": "Designed the interface.",
+            "technologiesUsed": {
+                "frontend": [
+                    "React.js",
+                    "Ant Design",
+                    "Email Js",
+                    "Framer Motion."
+                ]
+            },
+            "links": {
+                "github": "https://github.com/duck1114892/BookStore"
+            },
+            "img": [
+                {
+                    "id": 1,
+                    "url": "../../../../public/image/hotel_1.png"
+                },
+                {
+                    "id": 2,
+                    "url": "../../../../public/image/hotel_2.png"
+                },
+                {
+                    "id": 3,
+                    "url": "../../../../public/image/hotel_3.png"
+                },
+                {
+                    "id": 4,
+                    "url": "../../../../public/image/hotel_4.png"
+                },
+                {
+                    "id": 5,
+                    "url": "../../../../public/image/hotel_5.png"
+                },
+                {
+                    "id": 6,
+                    "url": "../../../../public/image/hotel_6.png"
+                },
+                {
+                    "id": 7,
+                    "url": "../../../../public/image/hotel_7.png"
+                },
+                {
+                    "id": 8,
+                    "url": "../../../../public/image/hotel_8.png"
+                },
+                {
+                    "id": 9,
+                    "url": "../../../../public/image/hotel_9.png"
+                }
+            ]
+        }
+    ]
+}

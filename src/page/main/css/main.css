@@ -1,0 +1,49 @@
+h1 {
+    background: -webkit-linear-gradient(#9f9f9f, #071aee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.ant-layout-content {
+    padding-top: 64px;
+}
+
+.section {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.section.visible {
+    opacity: 1;
+}
+
+.custom-icon {
+    transition: transform 0.3s,
+}
+
+.custom-icon:hover {
+    transform: scale(1.5);
+}
+
+.responsive-text {
+    font-size: 16px;
+    /* Kích thước chữ mặc định */
+
+    /* Khi màn hình nhỏ hơn 768px */
+    @media (max-width: 788px) {
+        font-size: 14px;
+    }
+
+    /* Khi màn hình nhỏ hơn 480px */
+    @media (max-width: 780px) {
+        display: none;
+    }
+}
