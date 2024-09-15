@@ -2,6 +2,7 @@ import { Image, Modal } from "antd"
 import { useState } from "react";
 import projectData from "../data/dataProject.json"
 const DetailPopUp = (prop) => {
+    const port = import.meta.env.VITE_PORT
     const [isModalOpen, setIsModalOpen] = useState(false);
     const showModal = () => {
         setIsModalOpen(true);
@@ -66,7 +67,7 @@ const DetailPopUp = (prop) => {
                 <h3 style={{ marginBottom: "15px" }}>Image:</h3>
                 <Image.PreviewGroup
                 >{project?.img?.map((img) => {
-                    return <Image width={200} key={img.id} src={img.url} />
+                    return <Image width={200} key={img.id} src={`${port}${img.url}`} />
                 })}
                 </Image.PreviewGroup>
             </Modal>

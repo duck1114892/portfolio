@@ -9,7 +9,7 @@ import "../css/main.css";
 import ContantPage from '../../contract/view/Contact';
 import { DownloadOutlined } from '@ant-design/icons';
 const { Header, Content } = Layout;
-
+const port = import.meta.env.VITE_PORT
 const MainPage = () => {
     const [isActive, setActive] = useState('1');
     const [visibleSection, setVisibleSection] = useState('');
@@ -93,7 +93,7 @@ const MainPage = () => {
                 >
                     <h1 style={{ textAlign: 'center' }}>About Me</h1>
                     <Card style={{
-                        background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../../../../public/image/code_gif.gif') `,
+                        background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('${port}image/code_gif.gif') `,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -102,14 +102,14 @@ const MainPage = () => {
                     }}>
                         <AboutPage />
                         <Row gutter={12} style={{ flex: 1, justifyContent: "center", marginTop: "30px" }}>
-                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src="../../../../public/image/js.png" alt="" /></Col>
-                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src="../../../../public/image/ts.png" alt="" /></Col>
-                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src="../../../../public/image/react.webp" alt="" /></Col>
-                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src="../../../../public/image/vue.png" alt="" /></Col>
-                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src="../../../../public/image/mongo.png" alt="" /></Col>
-                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src="../../../../public/image/ex.webp" alt="" /></Col>
-                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src="../../../../public/image/ant.png" alt="" /></Col>
-                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src="../../../../public/image/el_plus.png" alt="" /></Col>
+                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src={`${port}image/js.png`} alt="" /></Col>
+                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src={`${port}image/ts.png`} alt="" /></Col>
+                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src={`${port}image/react.webp`} alt="" /></Col>
+                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src={`${port}image/Vue.png`} alt="" /></Col>
+                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src={`${port}image/mongo.png`} alt="" /></Col>
+                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src={`${port}image/ex.webp`} alt="" /></Col>
+                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src={`${port}image/ant.png`} alt="" /></Col>
+                            <Col span={3} xs={12} sm={12} md={3} style={{ display: 'flex', justifyContent: "center", marginTop: "20px" }}><img className="custom-icon" style={{ maxWidth: "50px", maxHeight: "50px", }} src={`${port}image/el_plus.png`} alt="" /></Col>
                         </Row>
                     </Card>
                 </motion.div>

@@ -22,15 +22,15 @@
             "img": [
                 {
                     "id": 1,
-                    "url": "../../../../public/image/book_1.png"
+                    "url": "image/book_1.png"
                 },
                 {
                     "id": 2,
-                    "url": "../../../../public/image/book_2.png"
+                    "url": "image/book_2.png"
                 },
                 {
                     "id": 3,
-                    "url": "../../../../public/image/book_3.png"
+                    "url": "image/book_3.png"
                 }
             ]
         },
@@ -77,39 +77,39 @@
             "img": [
                 {
                     "id": 1,
-                    "url": "../../../../public/image/hotel_1.png"
+                    "url": "image/hotel_1.png"
                 },
                 {
                     "id": 2,
-                    "url": "../../../../public/image/hotel_2.png"
+                    "url": "image/hotel_2.png"
                 },
                 {
                     "id": 3,
-                    "url": "../../../../public/image/hotel_3.png"
+                    "url": "image/hotel_3.png"
                 },
                 {
                     "id": 4,
-                    "url": "../../../../public/image/hotel_4.png"
+                    "url": "image/hotel_4.png"
                 },
                 {
                     "id": 5,
-                    "url": "../../../../public/image/hotel_5.png"
+                    "url": "image/hotel_5.png"
                 },
                 {
                     "id": 6,
-                    "url": "../../../../public/image/hotel_6.png"
+                    "url": "image/hotel_6.png"
                 },
                 {
                     "id": 7,
-                    "url": "../../../../public/image/hotel_7.png"
+                    "url": "image/hotel_7.png"
                 },
                 {
                     "id": 8,
-                    "url": "../../../../public/image/hotel_8.png"
+                    "url": "image/hotel_8.png"
                 },
                 {
                     "id": 9,
-                    "url": "../../../../public/image/hotel_9.png"
+                    "url": "image/hotel_9.png"
                 }
             ]
         },
@@ -132,39 +132,39 @@
             "img": [
                 {
                     "id": 1,
-                    "url": "../../../../public/image/hotel_1.png"
+                    "url": "image/hotel_1.png"
                 },
                 {
                     "id": 2,
-                    "url": "../../../../public/image/hotel_2.png"
+                    "url": "image/hotel_2.png"
                 },
                 {
                     "id": 3,
-                    "url": "../../../../public/image/hotel_3.png"
+                    "url": "image/hotel_3.png"
                 },
                 {
                     "id": 4,
-                    "url": "../../../../public/image/hotel_4.png"
+                    "url": "image/hotel_4.png"
                 },
                 {
                     "id": 5,
-                    "url": "../../../../public/image/hotel_5.png"
+                    "url": "image/hotel_5.png"
                 },
                 {
                     "id": 6,
-                    "url": "../../../../public/image/hotel_6.png"
+                    "url": "image/hotel_6.png"
                 },
                 {
                     "id": 7,
-                    "url": "../../../../public/image/hotel_7.png"
+                    "url": "image/hotel_7.png"
                 },
                 {
                     "id": 8,
-                    "url": "../../../../public/image/hotel_8.png"
+                    "url": "image/hotel_8.png"
                 },
                 {
                     "id": 9,
-                    "url": "../../../../public/image/hotel_9.png"
+                    "url": "image/hotel_9.png"
                 }
             ]
         }
