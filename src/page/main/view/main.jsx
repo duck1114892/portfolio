@@ -73,7 +73,7 @@ const MainPage = () => {
                     </Col>
                     <Col span={2} xs={2} sm={2} md={3}>
                         <a
-                            href="../../../../public/cv/CV_JUNIOR_FRONTEND_DUC_LE.pdf"  // Đường dẫn đến tệp PDF
+                            href={`${port}/cv/CV_JUNIOR_FRONTEND_DUC_LE.pdf`}
                             download
                             style={{ textDecoration: 'none' }}
                         >
