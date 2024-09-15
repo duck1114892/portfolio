@@ -115,7 +115,7 @@
         },
         {
             "id": 3,
-            "name": "Proportfolio",
+            "name": "Portfolio",
             "description": "This is a personal information introduction website. It provides an overview of the applicant, including goals, experience, projects, and contact information.",
             "role": "Designed the interface.",
             "technologiesUsed": {
