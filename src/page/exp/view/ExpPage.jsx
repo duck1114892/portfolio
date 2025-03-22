@@ -134,7 +134,7 @@ const ExpPage = () => {
     {
       children: (
         <Card className="custom-card">
-          <p>9/2023 - 11/2023</p>
+          <p>2/2023 - 11/2023</p>
           <h2>
             <img
               className="custom-icon"
